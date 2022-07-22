@@ -1,28 +1,32 @@
 {
-  "name": "textarea",
-  "version": "0.0.1",
-  "description": "This is the description of the plugin.",
-  "strapi": {
     "name": "textarea",
-    "description": "Adds character counter to textareas with max length defined.",
-    "kind": "plugin",
-    "displayName": "Textarea counter"
-  },
-  "dependencies": {
-    "react-intl": "^6.0.5",
-    "styled-components": "^5.3.5"
-  },
-  "author": {
-    "name": "DeadActive"
-  },
-  "maintainers": [
-    {
-      "name": "DeadActive"
-    }
-  ],
-  "engines": {
-    "node": ">=14.19.1 <=16.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+    "version": "0.0.1",
+    "description": "This is the description of the plugin.",
+    "strapi": {
+        "name": "textarea",
+        "description": "Adds character counter to textareas with max length defined.",
+        "kind": "plugin",
+        "displayName": "Textarea counter"
+    },
+    "dependencies": {
+        "react-intl": "^6.0.5",
+        "styled-components": "^5.3.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DeadActive/strapi-textarea.git"
+    },
+    "author": {
+        "name": "DeadActive"
+    },
+    "maintainers": [
+        {
+            "name": "DeadActive"
+        }
+    ],
+    "engines": {
+        "node": ">=14.19.1 <=16.x.x",
+        "npm": ">=6.0.0"
+    },
+    "license": "MIT"
 }
